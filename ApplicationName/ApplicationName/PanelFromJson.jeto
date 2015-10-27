@@ -1,4 +1,6 @@
 ﻿{
-	"$type": "Panel",
+	"$type": "Form",
+"Title": "My Form",
+
 	"Content": { "$type": "Label", "Text": "Some Content" }
 }

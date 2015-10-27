@@ -6,7 +6,7 @@ open Eto.Drawing
 open Eto.Serialization.Json
 
 type PanelFromJson () as this =
-    inherit Panel ()
+    inherit Form ()
 
     do
         JsonReader.Load(this, "PanelFromJson.jeto")
