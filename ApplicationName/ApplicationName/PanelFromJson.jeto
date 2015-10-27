@@ -1,6 +1,35 @@
 ﻿{
-	"$type": "Form",
-"Title": "My Form",
-
-	"Content": { "$type": "Label", "Text": "Some Content" }
+	"$type": "Dialog",
+	"Title": "My Dialog",
+	"Content": {
+		"$type": "StackLayout",
+		"Padding": "10",
+		"Spacing": "5",
+		"Items": [
+			{ "Control": { "$type": "Label", "Text": "Some Content" }, "Expand": "true" },
+			{ 
+				"HorizontalAlignment": "Right",
+				"Control": 
+				{
+					"$type": "StackLayout",
+					"Orientation": "Horizontal",
+					"Spacing": "5",
+					"Items": [
+						{
+						  "$type": "Button",
+						  "$name": "DefaultButton",
+						  "Text": "OK",
+						  "Click": "DefaultButton_Click"
+						},
+						{
+						  "$type": "Button",
+						  "$name": "AbortButton",
+						  "Text": "C&ancel",
+						  "Click": "AbortButton_Click"
+						}
+					]
+				}
+			}
+		]
+	}
 }
