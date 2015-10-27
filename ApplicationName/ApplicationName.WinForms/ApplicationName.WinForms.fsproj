@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{393319d6-7b12-4e15-bb76-eb240c13bc94}</ProjectGuid>
+    <ProjectGuid>{c64588b9-390d-4d7d-bd61-6080ff01979c}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ApplicationName.WinForms</RootNamespace>
     <AssemblyName>ApplicationName.WinForms</AssemblyName>
@@ -73,7 +73,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <ProjectReference Include="..\ApplicationName\ApplicationName.fsproj">
-      <Project>{5bb8f71a-05ab-42b3-b32d-70c973aa7ebe}</Project>
+      <Project>{7f7daeef-f1dd-4bb3-9619-3a01b41c256e}</Project>
       <Name>ApplicationName</Name>
     </ProjectReference>
   </ItemGroup>

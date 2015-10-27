@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{df49b891-0467-4eb0-b9b6-b5b82998c834}</ProjectGuid>
+    <ProjectGuid>{1e99528e-0e47-41c7-a673-5bf3ada10fd4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ApplicationName.Mac</RootNamespace>
     <AssemblyName>ApplicationName.Mac</AssemblyName>
@@ -84,7 +84,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <ProjectReference Include="..\ApplicationName\ApplicationName.fsproj">
-      <Project>{5bb8f71a-05ab-42b3-b32d-70c973aa7ebe}</Project>
+      <Project>{7f7daeef-f1dd-4bb3-9619-3a01b41c256e}</Project>
       <Name>ApplicationName</Name>
     </ProjectReference>
   </ItemGroup>

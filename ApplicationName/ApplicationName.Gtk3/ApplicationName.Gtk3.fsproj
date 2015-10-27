@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{ea34ad22-640b-4cc9-9cf5-345e9abdfa41}</ProjectGuid>
+    <ProjectGuid>{2cea9529-33fb-4369-8d98-6dc556cedc52}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ApplicationName.Gtk3</RootNamespace>
     <AssemblyName>ApplicationName.Gtk3</AssemblyName>
@@ -73,7 +73,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <ProjectReference Include="..\ApplicationName\ApplicationName.fsproj">
-      <Project>{5bb8f71a-05ab-42b3-b32d-70c973aa7ebe}</Project>
+      <Project>{7f7daeef-f1dd-4bb3-9619-3a01b41c256e}</Project>
       <Name>ApplicationName</Name>
     </ProjectReference>
   </ItemGroup>
