@@ -1,4 +1,4 @@
-﻿namespace ApplicationName.Desktop
+﻿namespace ApplicationName.WinForms
 module Program =
 
     open System
@@ -7,6 +7,6 @@ module Program =
     [<EntryPoint>]
     [<STAThread>]
     let Main(args) = 
-        let app = new Eto.Forms.Application(Eto.Platform.Detect)
+        let app = new Eto.Forms.Application(Eto.Platforms.WinForms)
         app.Run(new MainForm())
         0

@@ -1,8 +1,8 @@
-﻿namespace ApplicationName.Desktop
+﻿namespace ApplicationName.Mac
 open System.Reflection
 open System.Runtime.CompilerServices
 
-[<assembly: AssemblyTitle("ApplicationName.Desktop")>]
+[<assembly: AssemblyTitle("ApplicationName.Mac")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
