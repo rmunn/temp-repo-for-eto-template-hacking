@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<GroupBox
+<Form
   xmlns="http://schema.picoe.ca/eto.forms" 
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Text="My group box"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="My Form"
   >
 	<Label Text="Some Content" />
-</GroupBox>
+</Form>

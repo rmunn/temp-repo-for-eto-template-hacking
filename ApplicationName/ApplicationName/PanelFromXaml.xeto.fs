@@ -6,7 +6,7 @@ open Eto.Drawing
 open Eto.Serialization.Xaml
 
 type PanelFromXaml () as this =
-    inherit GroupBox ()
+    inherit Form ()
 
     do
         XamlReader.Load(this, "PanelFromXaml.xeto")
