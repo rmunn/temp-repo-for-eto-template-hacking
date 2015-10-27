@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7f7daeef-f1dd-4bb3-9619-3a01b41c256e}</ProjectGuid>
+    <ProjectGuid>{89a3f5bc-4f33-4cce-85dc-4561677cc72c}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>ApplicationName</RootNamespace>
     <AssemblyName>ApplicationName</AssemblyName>
@@ -39,7 +39,7 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.Portable.FSharp.Targets" />
   <ItemGroup>
-    <Compile Include="MainForm.fs" />
+    <Compile Include="MyPanel.fs" />
     <Compile Include="AssemblyInfo.fs" />
     <Content Include="packages.config" />
   </ItemGroup>
