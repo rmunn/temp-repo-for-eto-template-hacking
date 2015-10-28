@@ -51,19 +51,38 @@
   <ItemGroup>
     <Compile Include="MyPanel.fs" />
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="PanelFromJson.jeto.fs" />
+    <Compile Include="PanelFromXaml.xeto.fs" />
     <Content Include="packages.config" />
+    <Compile Include="PanelFromEto.eto.fs" />
+    <Compile Include="PanelFromEto.fs" />
+    <EmbeddedResource Include="PanelFromXaml.xeto" />
+    <EmbeddedResource Include="PanelFromJson.jeto" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Eto">
       <HintPath>..\packages\Eto.Forms.2.1.0\lib\net45\Eto.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Eto.Serialization.Json">
+      <HintPath>..\packages\Eto.Serialization.Json.2.1.0\lib\net45\Eto.Serialization.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eto.Serialization.Xaml">
+      <HintPath>..\packages\Eto.Serialization.Xaml.2.1.0\lib\net45\Eto.Serialization.Xaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Xaml" />
   </ItemGroup>
 </Project>
